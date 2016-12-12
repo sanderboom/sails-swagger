@@ -7,6 +7,8 @@
 
 module.exports = {
 
+    migrate:'safe',
+
     testInstance() {
         return {
         	name: 'Contact Name',
